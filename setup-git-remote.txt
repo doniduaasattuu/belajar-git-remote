@@ -11,3 +11,5 @@
 
 // PUSH
 10. untuk sync ke git server ketikan "git push origin master", untuk push dengan nama lain di git server gunakan "git push origin master:main"
+11. untuk sync semua local branch ke git server keitkan "git push origin --all"
+12. untuk menghapus branch (develop) yang ada di git server ketikan "git push --delete origin develop", tetapi di local masih ada
