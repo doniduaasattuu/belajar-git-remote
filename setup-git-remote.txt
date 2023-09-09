@@ -22,4 +22,7 @@
 
 // FETCH
 14. untuk melakukan fetch semua branch yang ada di git server, ketikan "git fetch origin"
-15. jika ingin melakukan fetch branch (feature/a) tertentu saja, ketikan "git fetch origin feature/a"
+15. jika ingin melakukan fetch branch (feature/a) tertentu saja, ketikan "git fetch origin feature/a", namun perubahan tidak langsung di aplikasikan ke local git kita
+
+// PULL
+16. untuk mengaplikasikan perubahan (feature/a) yang ada dalam remote ke dalam local, ketikan "git pull feature/a", ketika melakukan pull, secara otomatis kita akan melakukan fetch juga ke git server
