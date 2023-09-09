@@ -1,0 +1,13 @@
+1. membuat project di repository di github/new
+2. membuat ssh key, ketikan "ssh-keygen"
+3. ssh key di generate otomatis di C:\Users\donid/.ssh/id_rsa
+4. copy ssh key dan tambahkan ke dalam github/settings/keys
+5. tes koneksi dengan ketikan "ssh -T git@github.com"
+    maka akan muncul "Hi doniduaasattuu! You've successfully authenticated, but GitHub does not provide shell access."
+6. tambahkan git remote melalui terminal dengan ketikan "git remote add origin git@github.com:doniduaasattuu/belajar-git-remote.git"
+7. cek git remote apakah sudah sukses di registrasi dengan ketikan "git remote"
+8. untuk melihat url git remote ketikan "git remote get-url origin", maka akan muncul url nya (url ssh karena kita menggunakan ssh untuk berkomunikasi dengan git server)
+9. untuk menghapus git remote ketikan "git remote rm origin"
+
+// PUSH
+10. untuk sync ke git server ketikan "git push origin master", untuk push dengan nama lain di git server gunakan "git push origin master:main"
