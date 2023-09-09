@@ -30,3 +30,5 @@
 // TAG
 17. setelah menambahkan tag pada snapshot di local kita dan kita push ke git server, tag tidak akan otomatis dikirim juga ke git server,
     untuk mengirim tag ke git server ketikan "git push origin 1.0.0", untuk mengirim semua tag ketikan "git push origin --tags"
+18. untuk mengambil tag yang ada di git server ketikan "git fetch origin 1.0.0"
+19. untuk menghapus tag yang ada di git server ketikan "git push --delete origin 1.0.0-SNAPSHOT"
