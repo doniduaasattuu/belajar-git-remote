@@ -13,3 +13,13 @@
 10. untuk sync ke git server ketikan "git push origin master", untuk push dengan nama lain di git server gunakan "git push origin master:main"
 11. untuk sync semua local branch ke git server keitkan "git push origin --all"
 12. untuk menghapus branch (develop) yang ada di git server ketikan "git push --delete origin develop", tetapi di local masih ada
+
+// CLONE
+11. untuk melakukan cloning dari project git ketikan "git clone git@github.com:doniduaasattuu/belajar-git-remote.git belajar-git-remote-clone"
+12. secara default saat melakuka cloning tidak semua branch di server akan dibuat juga di local, untuk melihat branch yang ada di server git ketikan "git branch -r"
+13. setelah tahu branch lain yang ada di server, kita bisa unduh branch (feature/a) tersebut ke local kita, dengan cara "git checkout -b feature/a origin/feature/a"
+    secara otomatis akan download dan pindah branch ke feature/a
+
+// FETCH
+14. untuk melakukan fetch semua branch yang ada di git server, ketikan "git fetch origin"
+15. jika ingin melakukan fetch branch (feature/a) tertentu saja, ketikan "git fetch origin feature/a"
